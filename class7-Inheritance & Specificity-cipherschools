@@ -1,0 +1,19 @@
+*{
+    color:green;
+
+}
+p{
+    color:red !important;
+    font-size: 20px;
+    font-size: 30px; /*this one is preffered*/
+
+}
+.para{
+    color: black;
+}
+#para{
+    color: purple;
+}
+header p{
+    color: royalblue !important;
+}
