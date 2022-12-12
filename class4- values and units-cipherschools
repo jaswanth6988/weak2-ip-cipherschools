@@ -1,0 +1,26 @@
+p{
+    color:blue;
+    background-color: bisque;
+    /*Absoult unit*/
+    width:250px;
+    /*relative unit*/
+    width: 70vw;
+    margin: 0;
+    line-height: 1.2;
+
+}
+div{
+    transform: rotate();
+    width: calc(100% - 20px);
+    height: 100vh;
+    background-image: url("/assets/small.jng");
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: blue;
+}
