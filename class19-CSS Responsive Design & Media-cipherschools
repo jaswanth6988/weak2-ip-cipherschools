@@ -1,0 +1,42 @@
+<docttype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-computable" content="IE-edge">
+    <meta name="viewpoint" content="width-devices-width,initial-scale=1.0">
+    <link rel="shortcut icon" href="/asset/favicom.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>CSS</title>
+</head>
+<body>
+    <p>
+        Students have a lot of questions when it comes to writing a paragraph: How many sentences should you use?
+         How do you transition within a paragraph? When do you end a paragraph? Etc. Below we explain everything
+          you need to know about paragraph structure to write like an expert, including several paragraph examples. 
+    </p>
+    <picture>
+        <source media="(max-width:600px)" srcset="https://www.ikea.com/in/en/images/products/fejka-artificial-potted-plant-with-pot-in-outdoor-succulent__0614211_pe686835_s5.jpg?f=s">
+        <source media="(max-width:900px)" srcset="https://media.architecturaldigest.com/photos/5efb7da66d18ec1650bd30a7/master/w_1000,h_1250,c_limit/Corn-Plant-LArge-2.jpg">
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ab/43d910ae7d11e88e82d728f9399c9e/plant_Profile_logo.jpg?auto=format%2Ccompress&dpr=1" alt="" width="30px">
+    </picture>
+</body>
+</html>
+
+
+div{
+    width:50%;
+}
+
+@media screen and (max-width: 760px){
+ p{
+    font-size: 12px;
+
+ }   
+}
+
+/*320-mobile portraits
+  480-mobile Landscape
+  600px-Small Tablets
+  760px-Table portraits
+  940-Tablet Landscape
+  1240pxor greater-Desktop/Laptops*/
