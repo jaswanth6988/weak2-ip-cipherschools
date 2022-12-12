@@ -1,0 +1,40 @@
+    <docttype html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-computable" content="IE-edge">
+        <meta name="viewpoint" content="width-devices-width,initial-scale=1.0">
+        <link rel="shortcut icon" href="/asset/favicom.png" type="image/x-icon">
+        <link rel="stylesheet" href="/css/style.css">
+        <title>CSS</title>
+    </head>
+    <body>
+       <h2>Paragraph</h2>
+       <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ab/43d910ae7d11e88e82d728f9399c9e/plant_Profile_logo.jpg?auto=format%2Ccompress&dpr=1" alt="" width="40%">;
+       <p>Before we dive into paragraph structure, let’s start with paragraph meaning. A paragraph is an individual segment of
+         writing that discusses a central idea, typically with more than one sentence. It even has its own paragraph symbol in 
+         copyediting, called the pilcrow (¶), not to be confused with the section symbol called the silcrow (§) that’s common in 
+         legal code. </p>
+         <small>All rights reserved & copy;2022</small>
+    </body>
+    </html>
+    
+    
+    :root{
+    --primary: color #f5205d;
+    --secondary-colo: #fff;
+    --big-font: 40px;
+    --small-font:20px
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    background: var(**primary-color);
+    color:var(--secondary-color);
+    padding:10px;
+    font-size:var(--small-font)
+}
