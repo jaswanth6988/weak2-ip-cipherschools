@@ -1,0 +1,50 @@
+<docttype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-computable" content="IE-edge">
+    <meta name="viewpoint" content="width-devices-width,initial-scale=1.0">
+    <link rel="shortcut icon" href="/asset/favicom.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>links and navigation</title>
+</head>
+<body>
+   <p>Like a scene in a movie or a verse in a song, paragraphs are the building blocks of any good piece of writing.
+     Paragraphs lend a natural rhythm to your writing that makes it a joy to read. The question is, how do you handle
+      them successfully?</p>
+      <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ul>
+      <input type="text" placeholder="Enter the text">
+</body>
+</html>
+
+
+
+p::after{
+    content: "This is the para";
+}
+
+p::before{
+    content: "This is para";
+}
+p::first-letter{
+    background-color: red;
+}
+p::first-line{
+    color:royalblue;
+
+}
+p::selection{
+    background-color: salmon;
+}
+li::marker{
+    color: seagreen;
+    font-size: 30px;
+}
+input[type="text"]::placeholder{
+    color: white;
+    background-color: slategray;
+}
