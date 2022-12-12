@@ -1,0 +1,67 @@
+<docttype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-computable" content="IE-edge">
+    <meta name="viewpoint" content="width-devices-width,initial-scale=1.0">
+    <link rel="shortcut icon" href="/asset/favicom.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>CSS</title>
+</head>
+<body>
+    <div>
+        <header></header>
+        <section>
+            <h2>Paragraph</h2>
+            <p>Before we dive into paragraph structure, let’s start with paragraph meaning. A paragraph is an individual segment of
+                 writing that discusses a central idea, typically with more than one sentence. It even has its own paragraph symbol
+                 in copyediting, called the pilcrow (¶), not to be confused with the section symbol called the silcrow (§) that’s 
+                 common in legal code.
+                  <br/>
+                 Before we dive into paragraph structure, let’s start with paragraph meaning. A paragraph is an individual segment of 
+                 writing that discusses a central idea, typically with more than one sentence. It even has its own paragraph symbol in 
+                 copyediting, called the pilcrow (¶), not to be confused with the section symbol called the silcrow (§) that’s common 
+                 in legal code. 
+                 <br/>
+                 Before we dive into paragraph structure, let’s start with paragraph meaning. A paragraph is an individual segment of 
+                 writing that discusses a central idea, typically with more than one sentence. It even has its own paragraph symbol in 
+                 copyediting, called the pilcrow (¶), not to be confused with the section symbol called the silcrow (§) that’s common 
+                 in legal code. 
+                 <br/>
+                 Before we dive into paragraph structure, let’s start with paragraph meaning. A paragraph is an individual segment of 
+                 writing that discusses a central idea, typically with more than one sentence. It even has its own paragraph symbol in 
+                 copyediting, called the pilcrow (¶), not to be confused with the section symbol called the silcrow (§) that’s common 
+                 in legal code.
+                  <br/>
+
+                </p>
+        </section>
+    </div>
+</body>
+</html>
+
+
+div{
+  display: block;
+  overflow-x: hidden;
+  height: 100vh;
+  max-height: 100%;
+  perspective: 1px;
+  perspective-origin: center top;
+}
+
+section{
+    padding: 35px 20px;
+    background-color: white;
+    transform: translateZ(0);
+}
+
+header{
+    background-image: url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ab/43d910ae7d11e88e82d728f9399c9e/plant_Profile_logo.jpg?auto=format%2Ccompress&dpr=1") no-repeat center;
+    height: 50vh;
+    position: relative;
+    padding: 1px;
+    transform-origin: center top;
+    transform: translateZ(-1px) scale(2.01);
+
+}
