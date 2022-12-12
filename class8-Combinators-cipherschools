@@ -1,0 +1,23 @@
+/*combinators*/
+/*desendent selector*/
+headerp{
+    color: royalblue;
+}
+
+/*child selector*/
+header>p{
+    background-color: cornsilk;
+
+}
+
+/*Adjacent sibling selector*/
+header>p{
+    font-style: italic;
+}
+
+/*general sibling selector*/
+header ~ p{
+    background-color: darkgoldenrod;
+    color: white;
+}
+
