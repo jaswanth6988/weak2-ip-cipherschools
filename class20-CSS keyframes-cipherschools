@@ -1,0 +1,35 @@
+<docttype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-computable" content="IE-edge">
+    <meta name="viewpoint" content="width-devices-width,initial-scale=1.0">
+    <link rel="shortcut icon" href="/asset/favicom.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>CSS</title>
+</head>
+<body>
+    <div>
+        <h1>A Paragraph is a series of related sentences</h1>
+        <img width="200px" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ab/43d910ae7d11e88e82d728f9399c9e/plant_Profile_logo.jpg?auto=format%2Ccompress&dpr=1">
+    </div>
+</body>
+</html>
+
+
+div{
+    padding: 20px;
+}
+
+div img{
+    animation: slide 0.5s forwards;
+    transform: translateY(300px) scale(1.2);
+    opacity: 0;
+}
+
+@keyframes alids{
+    to{
+        opacity: 0;
+        transform: scale(1.1);
+    }
+}
