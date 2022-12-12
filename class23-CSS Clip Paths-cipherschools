@@ -1,0 +1,36 @@
+<docttype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-computable" content="IE-edge">
+    <meta name="viewpoint" content="width-devices-width,initial-scale=1.0">
+    <link rel="shortcut icon" href="/asset/favicom.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>CSS</title>
+</head>
+<body>
+    <article>
+<h1>Clip Paths</h1>
+<p>Here will be the description of what you're but 
+    or whatever you want to put into it!</p>
+    </article>
+</body>
+</html>
+
+
+
+article{
+    height: 50vh;
+    background: url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ab/43d910ae7d11e88e82d728f9399c9e/plant_Profile_logo.jpg?auto=format%2Ccompress&dpr=1") no-repeat center;
+    color: white;
+    box-shadow: inset 1000px 0px rgb(0,0,0,0.4);
+    text-align: center;
+    padding: 35px 20px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+article h1,
+article p{
+    width: 50%;
+    margin: auto;
+}
