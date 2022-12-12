@@ -1,0 +1,58 @@
+<docttype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-computable" content="IE-edge">
+    <meta name="viewpoint" content="width-devices-width,initial-scale=1.0">
+    <link rel="shortcut icon" href="/asset/favicom.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Multiple Background Image</title>
+</head>
+<body>
+    <article>
+        <h1>Multiple Background Image</h1>
+        <p>Here will be the description of what you're bulding
+            or what you want to put into it!
+        </p>
+    </article>
+
+</body>
+</html>
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyqCCiI3q4lOEMPJgVikm080RxAf4kpa41NA&usqp=CAU"),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyqCCiI3q4lOEMPJgVikm080RxAf4kpa41NA&usqp=CAU") no-repeat center/100vw 138vw;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position-x: -10%;
+    background-position-y: 20px;
+}
+article{
+    background-color: rgb(18, 161, 18);
+    width: 70%;
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: white;
+
+}
+article h1{
+    font-size: 10px;
+    color: #fff;
+}
+article p{
+font-size: 8px;
+
+}
