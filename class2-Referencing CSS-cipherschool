@@ -1,0 +1,32 @@
+<docttype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-computable" content="IE-edge">
+    <meta name="viewpoint" content="width-devices-width,initial-scale=1.0">
+    <link rel="shortcut icon" href="/asset/favicom.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>CSS</title>
+    <style>
+        @import url("/css/style.css");
+        p{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p>Hello everyone</p>
+    <h1>My name is jaswanth</h1>
+    <h2>My name is jaswanth</h2>
+    <h3>My name is jaswanth</h3>
+    <h4>My name is jaswanth</h4>
+    <h5>My name is jaswanth</h5>
+    <h6>My name is jaswanth</h6>
+   <!--subscriptions-->
+   <p>H<sub>2</sub>
+    <!--superscripts-->
+    <p>5<sup>3</sup>
+    <!--small-->
+    <small>all rights reserved</small>
+</body>
+</html>
